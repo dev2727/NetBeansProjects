@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>BARTER HOME</title>
+    </head>
+     <link href='style.css' rel='stylesheet'>
+    <ul>
+        <li><a href="welcome.jsp">Home</a></li>
+        <li><a>About</a>
+            <ul>
+                <li><a href="About.jsp">What is Barter Exchange</a></li>
+                <li><a href="theoritical.jsp">Theoretical</a></li>
+            </ul>
+        </li>
+        <li><a href="bORs.jsp">New Exchange</a></li>
+        <li><a href="contact.jsp">Contact</a> </li>
+        <li><a>Login</a>
+            <ul>
+                <li><a href="login.jsp">Login</a></li>
+                <li><a>Change Password</a></li>
+                <li><a href="signup.jsp">Sign Up</a></li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <body>
+         <form method="post" action="process.jsp">
+             <form action="login.jsp" method="post">
+            <center>
+
+                <h1 style="color:white">WELCOME TO BARTER HOME</h1>
+
+                <b style="color:white">Login Here</b><br>
+
+                <table border="1" width="2" bgcolor="khaki" style="color:red">
+
+                    <tr><td><b>UserName</b></td> <td><input type="text" name="uname"></td></tr>
+
+                    <tr><td><b>Password</b></td> <td><INPUT type="password" name="upass"></td></tr>
+
+                    <tr><td><input type="submit" value="Login"></td>
+
+                        <td><input type="reset" value="Reset"></td>
+
+                </table>
+
+        </form>
+    </body>
+</html>
